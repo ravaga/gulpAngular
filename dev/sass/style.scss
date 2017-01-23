@@ -1,0 +1,26 @@
+//Import Bootstrap
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+//Import FontAwesome
+@import '../../bower_components/font-awesome/scss/font-awesome';
+
+body{
+	background:rgb(175, 0, 0);
+}
+
+.plate{
+	padding:15% 15% 15% 15%;
+	color: rgba(255,255,255,0.40);
+	text-align:center;
+	h1{
+		@media(min-width: $screen-xs){
+			font-size: 3em;
+		}
+		@media(min-width: $screen-sm){
+			font-size: 7em;
+		}
+		@media(min-width: $screen-md){
+			font-size: 10em;
+		}
+	}
+}
